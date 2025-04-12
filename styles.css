@@ -4,13 +4,11 @@ body {
     background-color: #111 !important;
 }
 
-/* Navbar estilo FNAF */
 .bg-danger {
-    background-color: #8b0000 !important; /* Rojo oscuro */
+    background-color: #8b0000 !important;
 }
 
 
-/* Bordes y hover para tarjetas */
 .card {
     transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -19,12 +17,11 @@ body {
     box-shadow: 0 5px 15px rgba(139, 0, 0, 0.5);
 }
 
-/* Efecto para títulos */
 .text-warning {
-    color: #ffc107 !important; /* Amarillo para Freddy */
+    color: #ffc107 !important;
 }
 .text-info {
-    color: #17a2b8 !important; /* Azul para Bonnie */
+    color: #17a2b8 !important;
 }
 
 h2 {
@@ -39,4 +36,26 @@ h2 {
     background-color: rgba(255, 255, 255, 0.1);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     
+}
+@media (max-width: 992px) {
+    .navbar-collapse {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #8b0000;
+        padding: 15px;
+    }
+    .navbar-toggler {
+        display: block;
+        background: none;
+        border: none;
+        color: white;
+        font-size: 1.5rem;
+    }
+    .navbar-toggler:focus + .navbar-collapse,
+    .navbar-collapse:hover {
+        display: block;
+    }
 }
