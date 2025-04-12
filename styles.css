@@ -1,0 +1,42 @@
+
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #111 !important;
+}
+
+/* Navbar estilo FNAF */
+.bg-danger {
+    background-color: #8b0000 !important; /* Rojo oscuro */
+}
+
+
+/* Bordes y hover para tarjetas */
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(139, 0, 0, 0.5);
+}
+
+/* Efecto para títulos */
+.text-warning {
+    color: #ffc107 !important; /* Amarillo para Freddy */
+}
+.text-info {
+    color: #17a2b8 !important; /* Azul para Bonnie */
+}
+
+h2 {
+    color: rebeccapurple;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
